@@ -1,0 +1,56 @@
+
+.header{
+  /*  background-image: url('../images/2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;*/
+    /*background-color: rgb(193, 193, 193);*/
+}
+
+.alheri-nav{
+    font-size: 18px;
+
+    
+}
+
+.alheri-nav a{
+    margin-right:20px;
+   
+
+}
+
+.navbar-item img {
+    max-height: 5rem;
+}
+
+.service {
+    border: #980C21 solid 1px;
+    margin: 30px;
+    border-radius: 10px;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@font-face {
+    font-family: "cg times";
+    src: url("../fonts/al.TTF") format("ttf"),
+   }
+
+.sub-fam{
+    font-family: "cg times";
+    color: #70ce6b;
+}
+
+.first{
+    background-image: url('../images/back.jpg');
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover
+}
+
+   
+
