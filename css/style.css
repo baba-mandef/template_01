@@ -28,6 +28,11 @@
     margin: 30px;
     border-radius: 10px;
 }
+.team {
+    border: #980C21 solid 1px;
+    margin: 10px;
+ 
+}
 
 .center{
     display: flex;

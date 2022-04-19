@@ -12,6 +12,8 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/assets/owl.carousel.min.css">
   <link rel="stylesheet" type="text/css"
     href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/assets/owl.theme.default.min.css">
+  
+   
 
 
   <script src="_javascript/main.js"></script>
@@ -138,6 +140,40 @@
 
             </p>
 
+                     
+                    <ul class="steps has-content-centered">
+                      <li class="steps-segment">
+                        <span class="steps-marker"></span>
+                        <div class="steps-content">
+                          <p class="is-size-4">2019</p>
+                          <p>This is the first step, which means you start here.</p>
+                        </div>
+                      </li>
+                      <li class="steps-segment">
+                        <span class="steps-marker"></span>
+                        <div class="steps-content">
+                          <p class="is-size-4">2020</p>
+                          <p>This is the second step. Once you complete the first step, you will end up here.</p>
+                        </div>
+                      </li>
+                      <li class="steps-segment is-active">
+                        <span class="steps-marker"></span>
+                        <div class="steps-content">
+                          <p class="is-size-4">2021</p>
+                          <p>This is the third step. This is halfway between the start and the end.</p>
+                        </div>
+                      </li>
+                      <li class="steps-segment">
+                        <span class="steps-marker"></span>
+                        <div class="steps-content">
+                          <p class="is-size-4">2022</p>
+                          <p>The fourth step. Nearly there!</p>
+                        </div>
+                      </li>
+                     
+                    </ul>
+    
+
           </div>
         </div>
 
@@ -180,7 +216,7 @@
         
         </div>
 
-        <div class="columns">
+     <!--    <div class="columns">
           
           <div class="column service">
             <img src="images/about.jpg" alt="about">
@@ -204,27 +240,114 @@
             </h6>
           </div>
         
-        </div>
+        </div> -->
 
       </div>
     </div>
     </div>
     </div>
   </section>
+  <section class="hero">
+   
+    <div class="hero-body">
+      <div class="container">
+       
+        <div class="columns">
+          
+          <div class="column">
+            <img src="images/team1.jpg" alt="about">
+          </div>
+        
+          <div class="column">
+            <h2 class="title is-2 is-family-primary	has-text-black	has-text-centered">
+              Notre <span class="has-text-primary">Equipe</span>
+             </h2>
+            <br>
+            <p class="subtitle is-family-primary has-text-centered is-size-4">
+              Constitutée d’une jeune et dynamique équipe, travaillant dans un cadre adapté
+               et disposants d’outils de pointes, nous essayons de tirer meilleur partie de 
+               chaque membre pour formé une équipe avec des fondations  solide.
+
+            </p>
+
+          </div>
+        </div>
+
+        <div class="columns">
+          
+          <div class="column team">
+            <img src="images/12.jpg" alt="about">
+            <hr>
+            <h6 class="title is-6 is-family-primary has-text-black	has-text-centered">
+              Sadi Henri Paraiso.
+            </h6>
+            <h6 class="title is-6 is-family-primary	has-text-centered">
+              Developpeur web mobile fullstack.
+            </h6>
+          </div>
+          <div class="column team">
+            <img src="images/12.jpg" alt="about">
+            <hr>
+            <h6 class="title is-6 is-family-primary has-text-black	has-text-centered">
+              Sadi Henri Paraiso.
+            </h6>
+            <h6 class="title is-6 is-family-primary	has-text-centered">
+              Developpeur web mobile fullstack.
+            </h6>
+          </div>
+          <div class="column team">
+            <img src="images/12.jpg" alt="about">
+            <hr>
+            <h6 class="title is-6 is-family-primary has-text-black	has-text-centered">
+              Sadi Henri Paraiso.
+            </h6>
+            <h6 class="title is-6 is-family-primary	has-text-centered">
+              Developpeur web mobile fullstack.
+            </h6>
+          </div>
+          <div class="column team">
+            <img src="images/12.jpg" alt="about">
+            <hr>
+            <h6 class="title is-6 is-family-primary has-text-black	has-text-centered">
+              Sadi Henri Paraiso.
+            </h6>
+            <h6 class="title is-6 is-family-primary	has-text-centered">
+              Developpeur web mobile fullstack.
+            </h6>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+    </div>
+    </div>
+    
+  </section>
 
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/owl.carousel.min.js"></script>
   <script type="text/javascript">
-    var owl = $('.owl-carousel');
-    owl.owlCarousel({
-      items: 1,
-      loop: true,
-      margin: 10,
-      autoplay: true,
-      autoplayTimeout: 1000,
-      autoplayHoverPause: true
-    });
+  $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    autoplay:true,
+    autoplayTimeout:1000,
+    autoplayHoverPause:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+})
   </script>
 </body>
 

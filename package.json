@@ -70,6 +70,7 @@
   },
   "version": "0.0.4",
   "dependencies": {
-    "bulma-carousel": "^4.0.24"
+    "bulma-carousel": "^4.0.24",
+    "bulma-o-steps": "^1.1.0"
   }
 }

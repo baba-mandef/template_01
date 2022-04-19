@@ -6,7 +6,8 @@
 //colors
 $rouge-base : #980C21;
 $primary: $rouge-base;
-
+$steps-completed-color : #980C21;
+$steps-active-color :$rouge-base;
 
 //titles
 $title-family:true;
@@ -34,3 +35,4 @@ $navbar-height : 4rem;
 // $primary: $pink
 
 @import "../node_modules/bulma/bulma";
+@import "../node_modules/bulma-o-steps/bulma-steps.sass";
